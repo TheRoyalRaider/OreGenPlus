@@ -38,11 +38,11 @@ public class OreGenPlus{
 	public static Block blockSphene; //Normal Titanium Ore
 	
 	//Tin
-	public static Block blockCassiterite //Normal Tin Ore
+	public static Block blockCassiterite; //Normal Tin Ore
 	
 	//Arsenic
-	public static Block blockOrpiment //Poor Arsenic Ore
-	public static Block blockRelgar //Normal Arsenic Ore
+	public static Block blockOrpiment; //Poor Arsenic Ore
+	public static Block blockRelgar; //Normal Arsenic Ore
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
