@@ -10,21 +10,39 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 public class OreGenPlus{
 	
-	//Coal
-	public static Block blockCoalOre //Coal
-	
 	//Iron
-	public static Block blockSiderite //Poor Iron Ore
-	public static Block blockGoethite //Normal Iron Ore
-	public static Block blockMagnetite //Rich Iron Ore
+	public static Block blockSiderite; //Poor Iron Ore
+	public static Block blockGoethite; //Normal Iron Ore
+	public static Block blockMagnetite; //Rich Iron Ore
 	
 	//Copper
-	public static Block blockChalcopyrite //Poor Copper Ore
-	public static Block blockAzurite //Normal Copper Ore
-	public static Block blockMalachite //Rich Copper Ore
+	public static Block blockChalcopyrite; //Poor Copper Ore
+	public static Block blockAzurite; //Normal Copper Ore
+	public static Block blockMalachite; //Rich Copper Ore
 	
 	//Aluminum
-	public static Block block
+	public static Block blockBauxite; //Normal Aluminum Ore
+	
+	//Lead
+	public static Block blockCerussite; //Poor Lead Ore
+	public static Block blockGalena; //Normal Lead Ore
+	
+	//Zinc
+	public static Block blockSphalerite; //Poor Zinc Ore
+	public static Block blockZincite; //Normal Zinc Ore
+	
+	//Uranium
+	public static Block blockAutunite; //Normal Uranium Ore
+	
+	//Titanium
+	public static Block blockSphene; //Normal Titanium Ore
+	
+	//Tin
+	public static Block blockCassiterite //Normal Tin Ore
+	
+	//Arsenic
+	public static Block blockOrpiment //Poor Arsenic Ore
+	public static Block blockRelgar //Normal Arsenic Ore
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
