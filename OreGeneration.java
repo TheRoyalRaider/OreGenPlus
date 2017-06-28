@@ -32,7 +32,29 @@ public class OreGeneration implements IWorldGenerator {
 	}
 	
 	private void generateOverworld(World world, Random random, int chunkX, int chunkZ) {
+		//generateOre(OreGenPlus.block*Name*, world, random, chunkX, chunkZ, *MinVeinSize*, *MaxVeinSize*, *Spawn Chance*, *MinY*, *MaxY* Blocks.*SpawnIn*;
 		
+		//Poor Ores
+		generateOre(OreGenPlus.blockSiderite, world, random, chunkX, chunkZ, 32, 72, 1, 0, 70, Blocks.stone);
+		generateOre(OreGenPlus.blockChalcopyrite, world, random, chunkX, chunkZ, 32, 72, 1, 0, 70, Blocks.stone);
+		generateOre(OreGenPlus.blockCerussite, world, random, chunkX, chunkZ, 32, 72, 1, 0, 70, Blocks.stone);
+		generateOre(OreGenPlus.blockSphalerite, world, random, chunkX, chunkZ, 32, 72, 1, 0, 70, Blocks.stone);
+		generateOre(OreGenPlus.blockOrpiment, world, random, chunkX, chunkZ, 32, 72, 1, 0, 70, Blocks.stone);
+		
+		//Normal Ores
+		generateOre(OreGenPlus.blockBauxite, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		generateOre(OreGenPlus.blockAzurite, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		generateOre(OreGenPlus.blockGoethite, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		generateOre(OreGenPlus.blockGalena, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		generateOre(OreGenPlus.blockZincite, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		generateOre(OreGenPlus.blockAutunite, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		generateOre(OreGenPlus.blockSphene, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		generateOre(OreGenPlus.blockCassiterite, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		generateOre(OreGenPlus.blockRelgar, world, random, chunkX, chunkZ, 4, 10, .5, 0, 60, Blocks.stone);
+		
+		//Rich Ores
+		generateOre(OreGenPlus.blockMalachite, world, random, chunkX, chunkZ, 1, 2, .25, 0, 25, Blocks.stone);
+		generateOre(OreGenPlus.blockMagnetite, world, random, chunkX, chunkZ, 1, 2, .25, 0, 25, Blocks.stone);
 	}
 
 	private void generateEnd(World world, Random random, int chunkX, int chunkZ) {
