@@ -46,7 +46,7 @@ public class OreGenPlus{
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		
+		GameRegistry.registerWorldGenerator(new OreGeneration(), 0);
 	}
 	
 	@EventHandler
